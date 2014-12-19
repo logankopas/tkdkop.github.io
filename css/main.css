@@ -12,8 +12,13 @@
 .footer {
     background-color: #190C00;
 
-    padding-top: 5em;
-    padding-bottom: 3em;
-
+    padding-top: 2em;
+    padding-bottom: 1em;
 }
 
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;

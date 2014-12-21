@@ -9,11 +9,31 @@
     font-family: Stalemate "Comic Sans";
 }
 
+.nav-primary{
+    background-color: #190C00; /*190c00*/
+    position:fixed;
+    margin-top:auto;
+    margin-bottom:auto;
+    float:left;
+    z-index: 1;
+
+}
+
+.content{
+    position: relative;
+}
+
 .footer {
     background-color: #190C00;
 
     padding-top: 2em;
     padding-bottom: 1em;
+}
+
+body
+{
+    background-color: #ECDCCC;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h1 {
@@ -22,3 +42,85 @@ h1 {
 
 h2 {
     font-family: 'Quicksand', sans-serif;
+}
+ 
+nav
+{
+    font-family: 'Nixie One', cursive;
+    font-size: 1.5em;
+    text-align: right;
+}
+
+nav a
+{
+    height:75px;
+    margin-top:0px;
+    margin-right:0px;
+    display:table-cell;
+    vertical-align:middle;
+}
+
+nav > ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:link
+{
+    text-decoration:none;
+    color: #111A34;
+}
+
+a:visited
+{
+    text-decoration:none;
+    color: #4E1813;
+}
+
+a:hover
+{
+    text-decoration:none;
+}
+
+a:active
+{
+    text-decoration:underline;
+    color: #4E1813;
+}
+
+nav a:link
+{
+    color: #ECDCCC;
+}
+
+nav a:visited
+{
+    color: #ECDCCC;
+}
+
+nav a:hover
+{
+    text-decoration:none;
+    color: #190C00;
+}
+
+#no-hover:hover
+{
+    text-decoration:none;
+    background-color: #190C00; 
+}
+
+.nav-mobile
+{
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+    background: #ECDCCC url(/assets/threeline.png) no-repeat center center;
+    width:48px;
+    height:48px;
+    border:5px;    
+}
+

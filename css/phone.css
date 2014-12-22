@@ -1,5 +1,14 @@
 /* This is the stylesheet for phones */
 
+/** TODO
+ * iphone: menu doesn't go all the way to bottom of screen
+ * iphone: can't scroll through menu in landscape
+ *          DONE
+ * iphone: menu button overlaps text
+ * need proper colour menu icon
+ * need a reverse colour beard logo 
+ */
+
 .nav-mobile
 {
     display:block;
@@ -7,6 +16,8 @@
 
 .nav-primary-active
 {
+    background-color:#8E5A2D;
+    overflow-y:scroll;
     width:80%;
     height:100%;
     padding:10px;
@@ -45,6 +56,11 @@ nav li
 
 @media (max-width: 500px)
 {
+    .main
+    {
+        font-size:2em;
+    }
+
     .logan
     {
         font-size:0.4em;
@@ -70,6 +86,12 @@ nav li
 
 @media (max-width: 650px) and (min-width: 500px) 
 {
+
+    .main
+    {
+        font-size:2em;
+    }
+
     .logan
     {
         font-size:0.75em;
@@ -115,4 +137,33 @@ nav li
     }
 }
 
+/**
+ *
+ * Thanks to 
+ * http://css-tricks.com/examples/WebKitScrollbars/
+ * for the scrollbar
+ *
+ */
 
+/* Let's get this party started */
+nav::-webkit-scrollbar {
+    width:6px; 
+}
+ 
+/* Track */
+nav::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+}
+ 
+/* Handle */
+nav::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    background: rgba(0,0,0,0.5); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8); 
+}
+nav::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0,0,0,0.5); 
+}

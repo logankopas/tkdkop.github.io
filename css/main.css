@@ -9,6 +9,22 @@
     font-family: Stalemate "Comic Sans";
 }
 
+.main
+{
+    text-align:right;
+    font-family:'Nixie One', serif;
+    line-height:150%;
+    padding-top: 2em;
+/*    padding-right:18%; */
+    font-size:3.5em;
+    display:block;
+}
+
+.spread
+{
+    letter-spacing:0.2em;
+}
+
 .nav-primary{
     background-color: #190C00; /*190c00*/
     position:fixed;
@@ -21,6 +37,8 @@
 
 .content{
     position: relative;
+    display:block;
+    padding-right:15%;
 }
 
 .footer {
@@ -43,7 +61,12 @@ h1 {
 h2 {
     font-family: 'Quicksand', sans-serif;
 }
- 
+
+p
+{
+    text-align:justify;
+} 
+
 nav
 {
     font-family: 'Nixie One', cursive;
@@ -115,7 +138,7 @@ nav a:hover
 .nav-mobile
 {
     display:none;
-    position:absolute;
+    position:fixed;
     top:0;
     left:0;
     background: #ECDCCC url(/assets/threeline.png) no-repeat center center;

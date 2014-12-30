@@ -14,7 +14,7 @@
     text-align:right;
     font-family:'Nixie One', serif;
     line-height:150%;
-    padding-top: 2em;
+    padding-top: 0.5em;
 /*    padding-right:18%; */
     font-size:3.5em;
     display:block;
@@ -36,10 +36,44 @@
 }
 
 .content{
+    padding-top:1.5em;
     position: relative;
     display:block;
     padding-right:15%;
 }
+
+.skills
+{
+    font-family: Stalemate "Comic Sans";
+    font-size:5em;
+    letter-spacing:2px;
+    color: #190C00;
+    position:absolute;
+    display:block;
+}
+
+#skills-left
+{
+    top:0;
+    left:0;
+    font-family:'Poiret One' 'Comic Sans';
+    text-align:left;   
+}
+
+#skills-right
+{
+    font-family:'Poiret One' 'Comic Sans';
+    text-align:right;
+    top:0;
+    right:0;
+}
+
+/*.dot
+{
+    font-size:10em;
+    color:#FFFF4D;"
+
+}*/
 
 .footer {
     background-color: #190C00;
@@ -83,7 +117,7 @@ nav a
     vertical-align:middle;
 }
 
-nav > ul
+ul
 {
     list-style-type: none;
     margin: 0;

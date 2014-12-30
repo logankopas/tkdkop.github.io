@@ -1,1 +1,133 @@
-This comes before page two.
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="/css/main.css" >
+        <link rel="stylesheet" media="(max-width: 1000px)" href="/css/phone.css" >
+        <link rel="stylesheet" media="(min-width: 1000px)" href="/css/desktop.css" >       
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Dancing+Script">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Quicksand"> 
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:400,700">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Poiret One">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Nixie+One">
+        <link href="/assets/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <script type="text/javascript" src="/js/nav.js"></script>
+    </head>
+    
+<body style="margin:0px; padding:0px;">
+
+<nav class="nav-primary" role="navigation" >
+    <ul class="nav-list">
+        <li class="nav-item" id="no-hover" 
+            style="margin-top:51px;margin-bottom:25px;"> 
+        <a href="/index.html">
+            <img src="/assets/beard.png"
+                alt="Home" style="height:95px;
+                display:block; margin:auto;">
+        </a>
+        
+        
+        <li class="nav-item">
+        <a  
+          href="/about/">About Me&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+        <a  
+          href="/contact/">Contact&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="nav-item">
+        <a  
+          href="/game/">Game&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="nav-item">
+        <a class="active" 
+          href="/projects/">Portfolio&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+        <a  
+          href="/skills/">Skills&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </li>
+        
+        
+    </ul>
+</nav>
+<script type="text/javascript">
+var mobile = document.createElement('div');
+mobile.className = 'nav-mobile';
+document.querySelector('.nav-primary').appendChild(mobile);
+var toggle = document.querySelector('.nav-list');
+var parent = document.querySelector('.nav-primary');
+mobile.onclick = function()
+{
+    toggleClass(this, 'nav-mobile-open');
+    toggleClass(toggle, 'nav-active');
+    toggleClass(parent, 'nav-primary-active');
+}
+</script>
+
+
+
+<main>
+    <span class="content">
+    <h1>Personal</h1>
+<h2>Alien Exterminator</h2>
+<p>
+This is a mobile game I am developing using javascript, phonegap, and phaser game engine. 
+I began developing this as a side project to practice using javascript and to get something
+released on the app store. It is still currently under development.
+</p>
+<h2>Plan Ahead</h2>
+<p>
+This is an application developed at hackRegina. Myself and 2 others had 8 hours to 
+build some sort of software using any of the sponsors' APIs. We developed a C# application
+using both the GasBuddy and Google Maps APIs. You give this application your journey start 
+and destination and it returns to you a list of the cheapest gas stations along your journey.
+This was the first time any of our group members had developed anything using http requests, APIs,
+or even JSON. We placed 3rd and won $250.
+</p>
+<h1>Academic</h1>
+<!--
+    - database
+    - TDD report
+    - 371
+    - Matlab
+    - AI?
+    - bioinformatics
+    - HCI
+    - s-chat?
+    - security
+    - natas 
+
+    -programming comps?
+-->
+
+    </span>
+</main>
+
+<div id="footer" class="footer">
+    <img src="/assets/beard.png" align="center" height="250" width="250"
+            style="display: block;
+            margin: auto;">
+</div>
+
+</body>
+</html>
+

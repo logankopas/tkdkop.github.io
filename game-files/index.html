@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        
+        <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        
+        <!-- My files, uses phaser 2.0.4 -->
+        <script type="text/javascript" src="js/phaser.js"></script>
+        <script type="text/javascript" src="js/game.js"></script>
+        <script type="text/javascript" src="js/enemies.js"></script>
+        <script type="text/javascript" src="js/player.js"></script>
+        <script type="text/javascript" src="js/phonegap-specific.js"></script>
+        
+        <title>Hello World</title>
+    </head>
+    <body>
+   
+    <div id="container" >
+        <script type="text/javascript">
+            var width  = window.innerWidth;  //* window.devicePixelRatio;
+            var height = window.innerHeight //* window.devicePixelRatio;
+            app.initialize();
+            beginGame(width,height);
+        </script>
+    </div>
+        
+
+       
+    </body>
+</html>

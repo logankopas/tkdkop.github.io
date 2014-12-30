@@ -14,6 +14,11 @@
     display:block;
 }
 
+.nav-mobile-open
+{
+    background-color:#8E5A2D;
+}
+
 .nav-primary-active
 {
     background-color:#8E5A2D;
@@ -46,6 +51,18 @@ nav li
     height:75px;
     display:table;
     color:#190C00;
+}
+
+.nav-head
+{
+    background: #8E5A2D url(/assets/beard-reverse.png) no-repeat center center;
+	background-size: 95px;
+}
+
+.nav-head:hover
+{
+    background: #8E5A2D url(/assets/beard-light.png) no-repeat center center;
+	background-size: 95px;
 }
 
 .content
@@ -81,6 +98,27 @@ nav li
         style="font-size:2em;
         color:#FFFF4D;
     }
+
+	.nav-mobile
+	{
+		width:30px;
+		height:30px;
+		background-size:30px;
+	}
+
+	.nav-mobile-open
+	{
+		width:30px;
+		height:30px;
+		background-size:30px;
+	}
+
+	.nav-mobile:hover
+	{
+		width:30px;
+		height:30px;
+		background-size:30px;
+	}
 
 }
 

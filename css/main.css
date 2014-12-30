@@ -25,16 +25,6 @@
     letter-spacing:0.2em;
 }
 
-.nav-primary{
-    background-color: #190C00; /*190c00*/
-    position:fixed;
-    margin-top:auto;
-    margin-bottom:auto;
-    float:left;
-    z-index: 1;
-
-}
-
 .content{
     padding-top:1.5em;
     position: relative;
@@ -89,7 +79,8 @@ body
 }
 
 h1 {
-    font-family: 'Lato', sans-serif;
+	font-family:'Nixie One', serif;
+	font-size:3em;
 }
 
 h2 {
@@ -101,9 +92,37 @@ p
     text-align:justify;
 } 
 
+.nav-primary{
+    background-color: #190C00; /*190c00*/
+    position:fixed;
+    margin-top:auto;
+    margin-bottom:auto;
+    float:left;
+    z-index: 1;
+
+}
+
+.nav-mobile
+{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    background: #ECDCCC url(/assets/3-line-transparent.png) no-repeat center center;
+    width:48px;
+    height:48px;
+    border:5px;    
+}
+
+.nav-mobile:hover
+{
+	background: #ECDCCC url(/assets/3-line.png) no-repeat center center;
+
+}
+
 nav
 {
-    font-family: 'Nixie One', cursive;
+    font-family: 'Nixie One', monospace;
     font-size: 1.5em;
     text-align: right;
 }
@@ -167,17 +186,5 @@ nav a:hover
 {
     text-decoration:none;
     background-color: #190C00; 
-}
-
-.nav-mobile
-{
-    display:none;
-    position:fixed;
-    top:0;
-    left:0;
-    background: #ECDCCC url(/assets/threeline.png) no-repeat center center;
-    width:48px;
-    height:48px;
-    border:5px;    
 }
 

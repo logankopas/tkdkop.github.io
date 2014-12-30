@@ -55,7 +55,7 @@ function Boot()
 {
     this.preload = function()
     {
-        game.load.image('load_bar'          , '/game-files/res/assets/preloader.gif');
+        game.load.image('load_bar'          , './res/assets/preloader.gif');
     }
     
     this.create = function()
@@ -84,29 +84,29 @@ function Loader()
         var bar = game.add.sprite(400, 300, 'load_bar');
         game.load.setPreloadSprite(bar);
         
-        game.load.image('title'             , '/game-files/res/assets/massacre-logo-216x182.png');
-        game.load.image('play'              , '/game-files/res/assets/play-128x64.png');
-        game.load.image('rate'              , '/game-files/res/assets/rate-128x64.png');
-        game.load.image('trophy'            , '/game-files/res/assets/trophy-64x64.png');
-        game.load.image('sky'               , '/game-files/res/assets/blue-960x640.png');
-        game.load.image('clouds'            , '/game-files/res/assets/clouds-2048x1024.png');
-        game.load.image('hill'              , '/game-files/res/assets/hill.png');
-        game.load.image('hills'             , '/game-files/res/assets/hills-2048x1024.png');
-        game.load.image('small_bullet'      , '/game-files/res/assets/small-bullet.png');
-        game.load.image('rocket'            , '/game-files/res/assets/rocket-20x14.png');
-        game.load.image('small_mg'          , '/game-files/res/assets/small-machine-gun.png');
-        game.load.image('roof'              , '/game-files/res/assets/roof.png');
-        game.load.image('shield_p_u'        , '/game-files/res/assets/shield-power-38x38.png');
-        game.load.image('invinc_p_u'        , '/game-files/res/assets/invincibility-38x38.png');
-        game.load.image('rocket_p_u'        , '/game-files/res/assets/rocket-power-38x38.png');
-        game.load.image('ground'            , '/game-files/res/assets/ground-512x32.png');
-        //game.load.image('ufo'               , '/game-files/res/assets/ufo-50x50.png');
-        game.load.image('textbox'           , '/game-files/res/assets/text-block-300x50.png');
-        game.load.spritesheet( 'player'     , '/game-files/res/assets/plane-768x42.png', 128,42);
-        game.load.spritesheet( 'explosion'  , '/game-files/res/assets/explode.png', 128, 128 );
-        game.load.spritesheet( 'ufo'        , '/game-files/res/assets/ufo-200x50.png', 50,50, 4);
-        //game.load.spritesheet( 'duck'       , '/game-files/res/assets/chick.png'  , 48,  54  );
-        game.load.spritesheet( 'tank'	    , '/game-files/res/assets/tank.png', 100, 100, 3);
+        game.load.image('title'             , './res/assets/massacre-logo-216x182.png');
+        game.load.image('play'              , './res/assets/play-128x64.png');
+        game.load.image('rate'              , './res/assets/rate-128x64.png');
+        game.load.image('trophy'            , './res/assets/trophy-64x64.png');
+        game.load.image('sky'               , './res/assets/blue-960x640.png');
+        game.load.image('clouds'            , './res/assets/clouds-2048x1024.png');
+        game.load.image('hill'              , './res/assets/hill.png');
+        game.load.image('hills'             , './res/assets/hills-2048x1024.png');
+        game.load.image('small_bullet'      , './res/assets/small-bullet.png');
+        game.load.image('rocket'            , './res/assets/rocket-20x14.png');
+        game.load.image('small_mg'          , './res/assets/small-machine-gun.png');
+        game.load.image('roof'              , './res/assets/roof.png');
+        game.load.image('shield_p_u'        , './res/assets/shield-power-38x38.png');
+        game.load.image('invinc_p_u'        , './res/assets/invincibility-38x38.png');
+        game.load.image('rocket_p_u'        , './res/assets/rocket-power-38x38.png');
+        game.load.image('ground'            , './res/assets/ground-512x32.png');
+        //game.load.image('ufo'               , './res/assets/ufo-50x50.png');
+        game.load.image('textbox'           , './res/assets/text-block-300x50.png');
+        game.load.spritesheet( 'player'     , './res/assets/plane-768x42.png', 128,42);
+        game.load.spritesheet( 'explosion'  , './res/assets/explode.png', 128, 128 );
+        game.load.spritesheet( 'ufo'        , './res/assets/ufo-200x50.png', 50,50, 4);
+        //game.load.spritesheet( 'duck'       , './res/assets/chick.png'  , 48,  54  );
+        game.load.spritesheet( 'tank'	    , './res/assets/tank.png', 100, 100, 3);
 
         getHighscore();
     }

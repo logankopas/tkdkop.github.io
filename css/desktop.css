@@ -25,6 +25,12 @@ nav li:hover
     background-color:#8E5A2D;
 }
 
+.nav-head
+{
+    background: #190C00 url(/assets/beard.png) no-repeat center center;
+	background-size: 95px;
+}
+
 .logan
 {
     font-size:1.15em;

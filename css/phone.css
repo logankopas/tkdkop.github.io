@@ -38,7 +38,6 @@
     display:block;
 }
 
-
 nav a
 {
     text-align:right;
@@ -73,6 +72,12 @@ nav li
 
 @media (max-width: 500px)
 {
+    .portfolio
+    {
+        display:block;
+        width:200%;
+    }
+
     .main
     {
         font-size:2em;
@@ -124,6 +129,12 @@ nav li
 
 @media (max-width: 650px) and (min-width: 500px) 
 {
+
+    .portfolio
+    {
+        display:block;
+        width:200%;
+    }
 
     .main
     {

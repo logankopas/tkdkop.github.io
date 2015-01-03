@@ -195,3 +195,7 @@ nav a:hover
     background-color: #190C00; 
 }
 
+.portfolio
+{
+    display:inline;
+}

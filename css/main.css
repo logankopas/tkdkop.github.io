@@ -79,6 +79,10 @@
     padding-bottom: 1em;
 }
 
+th
+{
+    padding-bottom:10px;
+}
 body
 {
     background-color: #ECDCCC;
@@ -153,7 +157,7 @@ ul
 a:link
 {
     text-decoration:none;
-    color: #111A34;
+    color: #4E1813;
 }
 
 a:visited

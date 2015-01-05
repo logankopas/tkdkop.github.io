@@ -74,9 +74,9 @@
 
 .footer {
     background-color: #190C00;
-
+    height:280px;
     padding-top: 2em;
-    padding-bottom: 1em;
+    padding-bottom: 16px;
 }
 
 th
@@ -87,6 +87,7 @@ body
 {
     background-color: #ECDCCC;
     font-family: 'Quicksand', sans-serif;
+    height:auto;
 }
 
 h1 {
@@ -191,6 +192,22 @@ nav a:hover
 {
     text-decoration:none;
     color: #190C00;
+}
+
+.footer-link:link
+{
+    color: #8E5A2D;
+}
+
+.footer-link:visited
+{
+    color: #8E5A2D;
+}
+
+.footer-link:hover
+{
+    text-decoration:none;
+    color: #ECDCCC;
 }
 
 #no-hover:hover

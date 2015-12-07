@@ -3,7 +3,7 @@
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Home</title>
+        <title>Birthday</title>
         <script src="/birthday/js/us/underscore.js"></script>
         <script src="/birthday/js/phaser.js"></script>
         <script src="/birthday/js/main.js"></script>
@@ -89,42 +89,22 @@ mobile.onclick = function()
 </script>
 
 
-<div id="header" style="">
-<span class="logan">Logan </span>
-    <span class="kopas"> Kopas</span><span class="dot">.</span>
-</div>
 
-
-
-
-    
+<main>
     <span class="content">
-            <span class="main"><b>Hey There!</b> 
-        <span class="spread">Welcome</span><br>to my page.</span>
-        <br>
-        <p>
-            My name is Logan Kopas and I am a software engineer.
-            I recently graduated from the University of Saskatchewan
-            with a BSc. Computer Science, Honours in Software Engineering.
-            I am currently working in Saskatoon at NC Consulting, a 
-            branch of Noodlecake studios. Speaking of which, take some time
-            to check out Noodlecake's mobile games such as Super Stickman Golf.
-        </p> <p>
-            If you want to know more about me, 
-            check out my <a href="/interests">Interests</a> 
-            page. To see examples of my work head
-            to my <a href="/projects">Portfolio</a> page. 
-            You can also check out my
-            <a href="/assets/resume.pdf">resum&eacute;</a>
-            , <a href="/transcript">transcript</a> 
-            or <a href="/contact">contact</a> me if you wish
-        </p><p>
-            I look forward to hearing from you !! 
-        </p>
-        <br><br>
-       
+        <div id="game-container" style="display:block; margin:auto;width:800px;"></div>
+
+    <script type="text/javascript">
+
+    window.onload = function() {
+        window.main();
+    };
+
+    </script>
+
 
     </span>
+</main>
 
 <div id="footer" class="footer" style="font-size:1em;">
     <img src="/assets/beard.png" align="center" height="250" width="250"

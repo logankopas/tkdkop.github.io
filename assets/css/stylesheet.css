@@ -1,5 +1,11 @@
 
-
+body {
+    padding: 0 15%;
+    background-color: #fcf9f0;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.005em;
+}
 
 h1 {
   font-family: "Playwrite HU", cursive;
@@ -13,7 +19,6 @@ h2 {
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
-
 }
 
 h3 {
@@ -21,7 +26,6 @@ h3 {
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
-
 }
 
 h4 {
@@ -29,5 +33,16 @@ h4 {
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
+}
 
+a {
+    color: dimgrey;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+ul > li {
+    display: inline-block;
 }

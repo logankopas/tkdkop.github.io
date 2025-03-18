@@ -1,0 +1,7 @@
+
+    {{ $pages := where site.RegularPages "Section" "posts" }}
+    {{ $paginator := .Paginate $pages }}
+
+    {{ range $paginator.Pages }}
+    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> - {{ .Date | time.Format "2006 Jan 02" }}
+    {{ end }}

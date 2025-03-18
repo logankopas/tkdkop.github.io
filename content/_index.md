@@ -1,7 +1,9 @@
 ---
 title: "Home page"
 ---
+# Welcome to Logan's blog
 
-This line is from `content/_index.md`.
+## A blog about computers, plants, and maybe some anticapitalism.
+
 
 [About Me](/about/).

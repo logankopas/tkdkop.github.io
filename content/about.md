@@ -1,9 +1,9 @@
 +++
 date = '2025-03-17T19:27:56-06:00'
-draft = true
 title = 'About'
 +++
 
 ## About Me
 
-Hi, my name is Logan.
+Hi, my name is Logan. I work with computers and I have 4 pets.
+

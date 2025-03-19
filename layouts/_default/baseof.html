@@ -6,9 +6,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
     {{ $styles := resources.Get "/css/stylesheet.css" | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
+    <title>{{ .Title }}</title>
 </head>
 <body>
+    <div class="content">
 	{{ block "main" . }}
 	{{ end }}
+    </div>
+<footer>
+  <div>
+    <p>
+    &copy; 2025 Logan Kopas
+    </p>
+  </div>
+</footer>
 </body>
 </html>

@@ -37,5 +37,7 @@ So many reset_index calls everywhere.
 
 ### 3. Behaviour changes depending on the data in the table
 
+The first time this happened to me I was livid. Let's look at a basic assertion, shall we?
+
 
 

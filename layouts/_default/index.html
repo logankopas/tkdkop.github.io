@@ -1,5 +1,7 @@
 {{ define "main" }}
     {{ partial "nav.html" }}
+    <div class='homepage'>
 	{{ .Content }}
     {{ partial "posts-list.html" . }}
+    </div>
 {{ end }}

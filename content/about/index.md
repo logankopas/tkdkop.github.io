@@ -7,7 +7,13 @@ name = 'About Me'
         name = 'About Me'
 +++
 
-## About Me
+# About Me
 
-Hi, my name is Logan. I work with computers and I have 4 pets.
+Hi, my name is Logan, and you're reading my personal blog.
+
+I describe myself as a software generalist, and I spend my time tending to plants and hiking with my dogs.
+
+## Socials
+
+You can reach me on Bluesky [@space-raccoons.bsky.social](https://bsky.app/profile/space-raccoons.bsky.social) or [via email](mailto:logan@flatland.ai).
 

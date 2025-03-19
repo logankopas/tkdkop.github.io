@@ -1,17 +1,28 @@
 
 body {
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 0 15%;
     background-color: #fcf9f0;
-    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-family: arial, sans-serif;
     line-height: 1.6;
     letter-spacing: 0.005em;
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
 }
+/* Expand content to keep footer at bottom */
+.content { flex: 1; }
 
 h1 {
   font-family: "Playwrite HU", cursive;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+.homepage > h1 {
+    text-decoration: underline;
 }
 
 h2 {
@@ -35,6 +46,15 @@ h4 {
   font-style: normal;
 }
 
+p,.indent {
+    margin-left: 2rem;
+}
+.navbar-vspace {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block
+}
+
 a {
     color: dimgrey;
     text-decoration: none;
@@ -43,6 +63,27 @@ a:hover {
     text-decoration: underline;
 }
 
+ul {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 ul > li {
     display: inline-block;
+    margin-right: 0.5rem;
+}
+ul > li > a {
+    margin: 0 0.5rem;
+}
+ul > li::before {
+    content: '['
+}
+ul > li::after {
+    content: ']'
+}
+
+footer {
+    min-height: 2rem;
+    font-size: 0.75em;
 }

@@ -5,6 +5,8 @@ name = 'About Me'
 [menus]
     [menus.main]
         name = 'About Me'
+[params]
+    footer = false
 +++
 
 # About Me

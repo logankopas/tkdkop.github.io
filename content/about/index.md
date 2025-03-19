@@ -9,6 +9,7 @@ name = 'About Me'
     footer = false
 +++
 
+
 # About Me
 
 Hi, my name is Logan, and you're reading my personal blog.

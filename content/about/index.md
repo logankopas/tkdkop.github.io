@@ -14,7 +14,8 @@ name = 'About Me'
 
 Hi, my name is Logan, and you're reading my personal blog.
 
-I describe myself as a software generalist, and I spend my time tending to plants and hiking with my dogs.
+I like to write software (the closer to the metal, the more fun), play with data, and I spend my time tending to plants and hiking with my dogs.
+
 
 ## Socials
 

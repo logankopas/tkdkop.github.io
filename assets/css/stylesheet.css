@@ -2,7 +2,10 @@
 body {
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0 15%;
+    max-width: 650px;
     background-color: #fcf9f0;
     font-family: arial, sans-serif;
     line-height: 1.6;
@@ -14,15 +17,36 @@ body {
 /* Expand content to keep footer at bottom */
 .content { flex: 1; }
 
+.heading-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+.heading-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    column-gap: 2rem;
+    width: 100%;
+
+}
+.heading-row img {
+    width: 10em;
+}
+
+.heading-flourish {
+    display: inline-block;
+}
+
 h1 {
   font-family: "Playwrite HU", cursive;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-}
-
-.homepage > h1 {
-    text-decoration: underline;
+  text-align: center;
+  width: 100%;
 }
 
 h2 {
@@ -46,13 +70,16 @@ h4 {
   font-style: normal;
 }
 
-p,.indent {
-    margin-left: 2rem;
+p {
+    text-align: justify;
+    hyphens: auto;
 }
+
 .navbar-vspace {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    display: inline-block
+    display: inline-block;
+    width: 100%;
 }
 
 a {
@@ -62,7 +89,18 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.nav-item-current > a:hover {
+    text-decoration: none;
+}
 
+ul.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 4em;
+
+}
 ul {
     padding-left: 0;
     margin-top: 0;
@@ -70,17 +108,28 @@ ul {
 }
 
 ul > li {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-right: 0.5rem;
 }
-ul > li > a {
-    margin: 0 0.5rem;
+li > img {
+    display: none;
+    max-width: 2em;
 }
-ul > li::before {
-    content: '['
+li.nav-item-current > img {
+    display:block;
 }
-ul > li::after {
-    content: ']'
+
+img {
+    max-width: 100%;
+}
+
+.coffee {
+    display:block;
+    margin: auto;
+    margin-top: 2rem;
+    width:217px;
 }
 
 footer {

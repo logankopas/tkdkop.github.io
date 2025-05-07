@@ -1,9 +1,21 @@
 
+{{ $pages := slice
+    (dict "name" "Home" "url" "/")
+    (dict "name" "Posts" "url" "/posts")
+    (dict "name" "About Me" "url" "/about")
+    (dict "name" "Tip Jar" "url" "/coffee")
+}}
+{{ $currentURL := (trim .Page.RelPermalink "/") }}
 <nav class='indent navbar-vspace'>
-    <ul>
-        <li><a href="/posts">Posts</a></li>
-    {{ range site.Menus.main }}
-        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    <ul class='flex-row'>
+    {{ range $pages }}
+        {{ $isCurrent := eq $currentURL (trim .url "/") }}
+        <li {{ if $isCurrent }} class="nav-item-current" {{ end }}>
+            <a href="{{ .url }}" disabled="{{ $isCurrent }}">{{ .name }}</a>
+            {{ with resources.Get "images/flourishes/simple-separator.svg" }}
+            <img src="{{ .RelPermalink }}"/>
+            {{ end }}
+        </li>
     {{ end }}
     </ul>
 </nav>

@@ -1,10 +1,10 @@
 +++
 date = '2025-03-17T19:27:56-06:00'
-title = 'Why I hate pandas (the library, not the animal)'
+title = 'Opinion: Polars > Pandas'
 draft = true
 +++
 
-# Why I hate pandas (the library, not the animal)
+# Opinion: Polars > Pandas
 
 If you've ever worked with me, you'll know that I hate the pandas library for python. 
 That's why, when we started setting up our data program at my current employer, I pushed to use polars, instead.

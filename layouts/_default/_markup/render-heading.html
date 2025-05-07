@@ -1,0 +1,43 @@
+{{ if le .Level 2 }}
+<div class="heading-container">
+
+    <div class="heading-row">
+        {{ if eq .Level 2 }}
+            <div>
+                {{ with resources.Get "images/flourishes/simple-left-flourish.svg" }}
+                <img src="{{ .RelPermalink }}"/>
+                {{ end }}
+            </div>
+        {{ end }}
+
+        <div>
+            <h{{ .Level }} id="{{ .Anchor }}" {{- with .Attributes.class }} class="{{ . }}" {{- end }}>
+              {{- .Text -}}
+            </h{{ .Level }}>
+        </div>
+
+        {{ if eq .Level 2 }}
+            <div>
+                {{ with resources.Get "images/flourishes/simple-right-flourish.svg" }}
+                <img src="{{ .RelPermalink }}"/>
+                {{ end }}
+            </div>
+        {{ end }}
+    </div>
+
+    {{ if eq .Level 1 }}
+    <div>
+        {{ with resources.Get "images/flourishes/simple-underline.svg" }}
+        <img src="{{ .RelPermalink }}"/>
+        {{ end }}
+    </div>
+    {{ end }}
+</div>
+{{ else }}
+
+<div>
+    <h{{ .Level }} id="{{ .Anchor }}" {{- with .Attributes.class }} class="{{ . }}" {{- end }}>
+      {{- .Text -}}
+    </h{{ .Level }}>
+</div>
+ {{ end }}

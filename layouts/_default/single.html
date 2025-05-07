@@ -1,5 +1,5 @@
 {{ define "main" }}
-    {{ partial "home.html" }}
+    {{ partial "nav.html" . }}
 	{{ .Content }}
     {{ if .Param "footer" }}
         {{ partial "footer.html" }}

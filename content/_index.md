@@ -1,13 +1,12 @@
 +++
 title = 'Personal Blog of Logan Kopas'
 +++
-# The Personal Blog of Logan Kopas
+# The Personal Journal of Logan Kopas
 
-Welcome to my blog. Enjoy your time here!
+This is my knowledge garden.  I hope to fill this space with thoughts, ideas, and things that I've learned. 
+My hope is that, through the act of writing, sharing, and conversing, these ideas can grow and this garden will flourish.
 
-I write about computers, plants, and maybe some other things, too.
-If you enjoy my writing, [let me know on Bluesky](https://bsky.app/profile/space-raccoons.bsky.social). 
-If you disagree with my writing, you can reach me via carrier pigeon. I'm sure it will make it's way to me, eventually.
+Thank you for being a part of this.
 
 
 
